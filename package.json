@@ -1,0 +1,37 @@
+{
+  "name": "fullstack-user-management",
+  "version": "1.0.0",
+  "description": "A full-stack application built using the MERN stack (MongoDB, Express, React, Node.js) that provides a scalable and secure system for managing users.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "dev:test": "NODE_ENV=test nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api",
+    "mern",
+    "backend"
+  ],
+  "type": "module",
+  "lint": "eslint .",
+  "author": "Rajendra Kumar Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
